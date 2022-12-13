@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav {
+  padding: 17px 0;
+}
+
+nav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+nav .logo {
+  width: 30%;
+  float: left;
+}
+nav .navbar {
+  width: 40%;
+  float: left;
+}
+nav .navbar ul {
+  text-align: center;
+}
+nav .navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 12px;
+}
+li:nth-child(5) {
+  margin-right: 0;
+}
+nav .navbar ul li a {
+  padding: 6px 16px;
+  display: block;
+  color: #343434;
+  border: 1px solid #dddddd;
+  border-radius: 999px;
+}
+nav .navbar ul li a:hover {
+  background-color: #dddddd;
+}
+nav .social_links {
+  width: 30%;
+  float: left;
+}
+nav .social_links ul {
+  text-align: right;
+}
+nav .social_links ul li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin-right: 16px;
+}
+li:nth-child(5) {
+  margin-right: 0;
+}
+nav .social_links ul li i {
+  border: 1px solid #dddddd;
+  border-radius: 999px;
+  width: 40px;
+  height: 40px;
+  padding: 8px 6px;
+  font-weight: 400;
+  font-size: 24px;
+}
+nav .social_links ul li i:hover {
+  background-color: #dddddd;
+}
+header .banner {
+  height: 500px;
+  background-image: url(../images/image-1.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+header .banner .content {
+  max-width: 660px;
+  height: 205px;
+  text-align: center;
+}
+header .banner {
+  position: relative;
+}
+header .banner .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+header .banner .content h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+header .banner .content p {
+  font-weight: 400;
+  line-height: 24px;
+  padding: 37px 0;
+}
+header .banner .content .button a {
+  width: 136px;
+  height: 35px;
+  padding: 8px 20px;
+  background: #4885ed;
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+main section .container .image img {
+  width: 100%;
+  border-radius: 100px 0px;
+}
+main section .container .image {
+  width: 50%;
+  float: left;
+  padding-right: 32.5px;
+  margin-top: 74px;
+  margin-bottom: 74px;
+}
+main section .container .cards_area h1{
+  font-weight: 300;
+  font-size: 48px;
+  color: #343434;
+  margin-top:103px;
+  margin-bottom:49px;
+}
+main section .container .cards_area{
+  float: left;
+  width: 50%;
+  padding-left: 32.5px;
+}
+main section .container .cards_area .cards .card {
+  max-width: 240px;
+  padding: 30px 26px;
+  border: 1px solid #dddddd;
+  background-color:white;
+} 
+main section .container .cards_area .cards .card_right-area{
+  float: left;
+  width: 50%;
+  
+}
+main section .container .cards_area .cards .card_left-area{
+  float: left;
+  width: 50%;
+}
+main section .container .cards_area .cards .card h3{
+  padding: 16px 0;
+}
+main section .background{
+  background-color:#DDDDDD;
+  height: 706px;
+}
+main section .background .container .image-2 img{
+  max-width: 398.11px;
+  border-radius: 999px;
+  margin-top: 100px;
+}
+main section .background .container .image-2{
+  width:40%;
+  float:left;
+}
+main section .background .container .content-2{
+  width:60%;
+  float:left;
+}
+main section .background .container .content-2 h2{
+  font-weight: 300;
+  font-size: 48px; 
+  color: #343434;
+  margin-top: 175px;
+}
+main section .background .container .content-2 p{
+  color: #343434;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 24px 0;
+}
+main section .background .container .content-2 button{
+  background-color:#4885ED;
+  border-radius: 28px;
+  padding: 8px 20px;
+  border:1px solid #4885ed;
+}
+main section .background .container .content-2 button a{
+  color:white;
+  font-weight: 600;
+}
